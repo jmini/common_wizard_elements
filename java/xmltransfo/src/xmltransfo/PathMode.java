@@ -1,0 +1,17 @@
+package xmltransfo;
+
+/**
+ * @author jbr
+ */
+public enum PathMode {
+  MOVETO,
+  LINETO,
+  HORIZONTAL_LINETO,
+  VERTICAL_LINETO,
+  CURVETO,
+  SMOOTH_CURVETO,
+  QUADRATIC_BEZIER_CURVE,
+  SMOOTH_QUADRATIC_BEZIER_CURVETO,
+  ELLIPTICAL_ARC,
+  CLOSEPATH,
+}
