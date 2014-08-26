@@ -25,12 +25,20 @@ Read me
 -------
 **Eclipse wizard icons** (also called **wizard elements** or **common_wizard_elements**) are available as Adobe Illustrator file on the eclipse wiki. See: [UI Graphics : Design : Common Elements > Wizard elements][17].
 
-In this github project, I have converted the file to svg using Inkscape: [common_wizard_elements.svg][18]
+You will find in this repository some derivated work:
 
-I wrote some java code to separate the big svg file into multiple: [xmltransfo][19]
+I have converted the file to svg using Inkscape: [common_wizard_elements.svg][18]
+
+I wrote some java code to separate the big svg file into multiple smaller files: [xmltransfo][19]
 
 I used Inkscape again to convert svg into png.
 
+
+License
+-------
+According to the Eclipse fundation, these icons are covered under the default Eclipse Terms of Use, which says that unless otherwise stated, content is made available under the Eclipse Public License.
+
+The content of this repository is also published under the Eclipse Public License.
 
   [1]: https://raw.githubusercontent.com/jmini/common_wizard_elements/master/resources/png/with_background/class.png
   [2]: https://raw.githubusercontent.com/jmini/common_wizard_elements/master/resources/png/icon_only/text_document.png
