@@ -13,3 +13,7 @@ hs_err_pid*
 
 # EGit #
 **/.gitignore
+
+# Other #
+*.xcf
+*.zip
