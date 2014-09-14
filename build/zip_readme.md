@@ -5,7 +5,7 @@ Read me
 -------
 This zip archive contains icons used in eclipse wizards.
 
-Version 1.0.
+Version 1.1 - 14/09/2014.
 
 License
 -------

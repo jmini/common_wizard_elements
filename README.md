@@ -43,18 +43,18 @@ The content of this repository is also published under the Eclipse Public Licens
   [1]: https://raw.githubusercontent.com/jmini/common_wizard_elements/master/resources/png/with_background/class.png
   [2]: https://raw.githubusercontent.com/jmini/common_wizard_elements/master/resources/png/icon_only/text_document.png
   [3]: https://raw.githubusercontent.com/jmini/common_wizard_elements/master/resources/png/with_border_and_background/folder_%28open%29.png
-  [4]: http://dl.bintray.com/jmini/generic/common_wizard_elements_repo.zip
-  [5]: http://dl.bintray.com/jmini/generic/common_wizard_elements_repo_png_icon_only.zip
+  [4]: http://dl.bintray.com/jmini/generic/common_wizard_elements.zip
+  [5]: http://dl.bintray.com/jmini/generic/common_wizard_elements_png_icon_only.zip
   [6]: https://github.com/jmini/common_wizard_elements/tree/master/resources/png/icon_only
-  [7]: http://dl.bintray.com/jmini/generic/common_wizard_elements_repo_png_with_background.zip
+  [7]: http://dl.bintray.com/jmini/generic/common_wizard_elements_png_with_background.zip
   [8]: https://github.com/jmini/common_wizard_elements/tree/master/resources/png/with_background
-  [9]: http://dl.bintray.com/jmini/generic/common_wizard_elements_repo_png_with_border_and_background.zip
+  [9]: http://dl.bintray.com/jmini/generic/common_wizard_elements_png_with_border_and_background.zip
   [10]: https://github.com/jmini/common_wizard_elements/tree/master/resources/png/with_border_and_background
-  [11]: http://dl.bintray.com/jmini/generic/common_wizard_elements_repo_svg_icon_only.zip
+  [11]: http://dl.bintray.com/jmini/generic/common_wizard_elements_svg_icon_only.zip
   [12]: https://github.com/jmini/common_wizard_elements/tree/master/resources/svg/icon_only
-  [13]: http://dl.bintray.com/jmini/generic/common_wizard_elements_repo_svg_with_background.zip
+  [13]: http://dl.bintray.com/jmini/generic/common_wizard_elements_svg_with_background.zip
   [14]: https://github.com/jmini/common_wizard_elements/tree/master/resources/svg/with_background
-  [15]: http://dl.bintray.com/jmini/generic/common_wizard_elements_repo_svg_with_border_and_background.zip
+  [15]: http://dl.bintray.com/jmini/generic/common_wizard_elements_svg_with_border_and_background.zip
   [16]: https://github.com/jmini/common_wizard_elements/tree/master/resources/svg/with_border_and_background
   [17]: https://wiki.eclipse.org/UI_Graphics_:_Design_:_Common_Elements#Wizard_elements
   [18]: https://github.com/jmini/common_wizard_elements/blob/master/resources/svg/common_wizard_elements.svg
