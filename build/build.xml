@@ -1,0 +1,73 @@
+<project name="common_wizard_elements" default="build_all_zips" basedir=".">
+    <description>
+        Prepare the zip archives common_wizard_elements project
+    </description>
+  <!-- set global properties for this build -->
+  <property name="dist" location="zips"/>
+  <property name="repo" location=".."/>
+
+  <target name="build_png_icon_only">
+    <zip destfile="${dist}/common_wizard_elements_png_icon_only.zip">
+      <zipfileset dir="${repo}/resources/png/icon_only" includes="*.png" prefix="common_wizard_elements_png_icon_only/png"/>
+      <zipfileset dir="${repo}/build" includes="zip_readme.md" fullpath="common_wizard_elements_png_icon_only/README.md"/>
+      <zipfileset dir="${repo}" includes="LICENSE" fullpath="common_wizard_elements_png_icon_only/LICENSE.txt"/>
+    </zip>
+  </target>
+
+  <target name="build_png_with_background">
+    <zip destfile="${dist}/common_wizard_elements_png_with_background.zip">
+      <zipfileset dir="${repo}/resources/png/with_background" includes="*.png" prefix="common_wizard_elements_png_with_background/png"/>
+      <zipfileset dir="${repo}/build" includes="zip_readme.md" fullpath="common_wizard_elements_png_with_background/README.md"/>
+      <zipfileset dir="${repo}" includes="LICENSE" fullpath="common_wizard_elements_png_with_background/LICENSE.txt"/>
+    </zip>
+  </target>
+
+  <target name="build_png_with_border_and_background">
+    <zip destfile="${dist}/common_wizard_elements_png_with_border_and_background.zip">
+      <zipfileset dir="${repo}/resources/png/with_border_and_background" includes="*.png" prefix="common_wizard_elements_png_with_border_and_background/png"/>
+      <zipfileset dir="${repo}/build" includes="zip_readme.md" fullpath="common_wizard_elements_png_with_border_and_background/README.md"/>
+      <zipfileset dir="${repo}" includes="LICENSE" fullpath="common_wizard_elements_png_with_border_and_background/LICENSE.txt"/>
+    </zip>
+  </target>
+
+  <target name="build_svg_icon_only">
+    <zip destfile="${dist}/common_wizard_elements_svg_icon_only.zip">
+      <zipfileset dir="${repo}/resources/svg/icon_only" includes="*.svg" prefix="common_wizard_elements_svg_icon_only/svg"/>
+      <zipfileset dir="${repo}/build" includes="zip_readme.md" fullpath="common_wizard_elements_svg_icon_only/README.md"/>
+      <zipfileset dir="${repo}" includes="LICENSE" fullpath="common_wizard_elements_svg_icon_only/LICENSE.txt"/>
+    </zip>
+  </target>
+
+  <target name="build_svg_with_background">
+    <zip destfile="${dist}/common_wizard_elements_svg_with_background.zip">
+      <zipfileset dir="${repo}/resources/svg/with_background" includes="*.svg" prefix="common_wizard_elements_svg_with_background/svg"/>
+      <zipfileset dir="${repo}/build" includes="zip_readme.md" fullpath="common_wizard_elements_svg_with_background/README.md"/>
+      <zipfileset dir="${repo}" includes="LICENSE" fullpath="common_wizard_elements_svg_with_background/LICENSE.txt"/>
+    </zip>
+  </target>
+
+  <target name="build_svg_with_border_and_background">
+    <zip destfile="${dist}/common_wizard_elements_svg_with_border_and_background.zip">
+      <zipfileset dir="${repo}/resources/svg/with_border_and_background" includes="*.svg" prefix="common_wizard_elements_svg_with_border_and_background/svg"/>
+      <zipfileset dir="${repo}/build" includes="zip_readme.md" fullpath="common_wizard_elements_svg_with_border_and_background/README.md"/>
+      <zipfileset dir="${repo}" includes="LICENSE" fullpath="common_wizard_elements_svg_with_border_and_background/LICENSE.txt"/>
+    </zip>
+  </target>
+
+  <target name="build_all">
+    <zip destfile="${dist}/common_wizard_elements.zip">
+      <zipfileset dir="${repo}/resources/png/icon_only" includes="*.png" prefix="common_wizard_elements/png/icon_only"/>
+      <zipfileset dir="${repo}/resources/png/with_background" includes="*.png" prefix="common_wizard_elements/png/with_background"/>
+      <zipfileset dir="${repo}/resources/png/with_border_and_background" includes="*.png" prefix="common_wizard_elements/png/with_border_and_background"/>
+      <zipfileset dir="${repo}/resources/svg/icon_only" includes="*.svg" prefix="common_wizard_elements/svg/icon_only"/>
+      <zipfileset dir="${repo}/resources/svg/with_background" includes="*.svg" prefix="common_wizard_elements/svg/with_background"/>
+      <zipfileset dir="${repo}/resources/svg/with_border_and_background" includes="*.svg" prefix="common_wizard_elements/svg/with_border_and_background"/>
+      <zipfileset dir="${repo}/resources/svg" includes="*.svg" prefix="common_wizard_elements/svg"/>
+      <zipfileset dir="${repo}/build" includes="zip_readme.md" fullpath="common_wizard_elements/README.md"/>
+      <zipfileset dir="${repo}" includes="LICENSE" fullpath="common_wizard_elements/LICENSE.txt"/>
+    </zip>
+  </target>
+
+  <target name="build_all_zips"  depends="build_png_icon_only,build_png_with_background,build_png_with_border_and_background,build_svg_icon_only,build_svg_with_background,build_svg_with_border_and_background,build_all">
+  </target>
+</project>
